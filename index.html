@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!--FAV ICON-->
+	<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+	<link rel="manifest" href="/site.webmanifest">
+	<style>
+				@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+		body{
+			background-color: #1B2430;
+			color: #1363DF;
+			font-family: 'Roboto', sans-serif;
+		}
+
+		.container {
+			max-width: 400px;
+			margin: 100px auto;
+			text-align: center;
+			border: 3px solid #1363DF;
+			
+		}
+		.input-number{
+			height: 30px;
+			margin: 20px 0;
+			background-color: #1363DF;
+			font-family: 'Roboto', sans-serif;
+			color: #fff;
+			font-size: 20px;
+		}
+		.btn {
+			cursor: pointer;
+			width: 250px;
+			height: 30px;
+			background-color: #1363DF;
+			color: #fff;
+			font-size: large;
+			margin: 30px 0;
+			transition: 1s;
+			
+		}
+		h1 {
+			font-size: 2.5em;
+			
+		}
+		.btn:hover{
+			transform: scale(1.1);
+			background-color: #df2113;
+		}
+	</style>
+	<title>Calculator ×</title>
+</head>
+<body>
+	<div class="container">
+		<h1>Simple Calculator</h1>
+		<form action="/" method="POST">
+			<input type="number" name="num1" class="input-number">
+			<br>
+			<input type="number" name="num2" class="input-number">
+			<br>
+			<button type="submit" class="btn"> × </button>
+		</form>
+	</div>
+	
+</body>
+</html>
